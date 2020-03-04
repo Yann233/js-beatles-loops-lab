@@ -18,12 +18,12 @@ function johnLennonFacts(facts){
   return arrayFact;
 }
 /////////////////////
-function iLoveTheBeatles(number){
-  var emptyArray = [];
+function iLoveTheBeatles(number){//此function有一个parameter是Number
+  var emptyArray = [];//创一个新的空array
   do {
-    emptyArray.push("I love the Beatles!")
-    number++;
+    emptyArray.push("I love the Beatles!")//string push 到空array里
+    number++;//加一次，number=number+1;
   }
-  while ( number < 15);
-  return emptyArray;
+  while ( number < 15);//当次数<15,也就是加到第14次
+  return emptyArray;//把加过string的array给return出来
 }
